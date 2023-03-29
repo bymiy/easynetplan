@@ -10,7 +10,7 @@ echo "  \/____/\/__/\/_/\/___/  `/___/  \/_/\/_/\/____/ \/__/ \ \ \/ \/____/\/__
 echo "                             /\___/                      \ \_\                          "
 echo "                             \/__/                        \/_/                          "
 echo ""
-echo "IP & DNS Configuration"
+echo "IP and DNS Configuration"
 echo ""
 read -p "New IP. Example: 192.168.1.240/24: " IP_ADDRESS
 read -p "Gateway. Example: 192.168.1.1: " GATEWAY_ADDRESS
@@ -51,7 +51,7 @@ echo "GATEWAY: $GATEWAY_ADDRESS"
 echo "DNS: $PRIMARY_DNS_ADDRESS / $SECONDARY_DNS_ADDRESS"
 echo ""
 while true; do
-    read -p "Are you sure you want to apply the IP & DNS settings? (y/n)" yn
+    read -p "Are you sure you want to apply the IP and DNS settings? (y/n)" yn
     case $yn in
         [Yy]* ) sudo netplan apply; break;;
         [Nn]* ) exit;;
