@@ -5,7 +5,7 @@ All you have to do is download the shell script, change the mod and run it.
 
 Attention! You must log in as the root user.
 
-<h>git clone https://github.com/bymiy/easynetplan.git<h>
+<code>git clone https://github.com/bymiy/easynetplan.git<code>
 
 sudo chmod u+x easynetplan/netplan.sh
 
