@@ -1,5 +1,5 @@
 #!/bin/bash
-cp -avR ./easynetplan/netplan /usr/bin
+cp -avR ./easynetplan/easynetplan /usr/bin
 clear
 echo '                                     __        __           '
 echo '   ___  ____ ________  ______  ___  / /_____  / /___ _____  '
