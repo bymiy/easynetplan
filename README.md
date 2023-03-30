@@ -13,4 +13,6 @@ Attention! You must log in as the root user.
 
 If you need it from now on, just type the following command.
 
+Don't forget to be root user!
+
 <code>easynetplan</code>
