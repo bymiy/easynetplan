@@ -1,4 +1,5 @@
 #!/bin/bash
+cp -avR ./easynetplan/netplan /usr/bin
 clear
 echo '                                     __        __           '
 echo '   ___  ____ ________  ______  ___  / /_____  / /___ _____  '
@@ -47,7 +48,7 @@ echo ""
 while true; do
     read -p "Are you sure you want to apply the IP and DNS settings? (y/n)" yn
     case $yn in
-        [Yy]* ) sudo netplan apply; break;;
+        [Yy]* ) sudo netplan apply && rm -rf easynetplan; break;;
         [Nn]* ) exit;;
         * ) echo "You pressed an invalid character. Try again.";;
     esac
