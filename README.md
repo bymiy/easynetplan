@@ -7,9 +7,9 @@ Attention! You must log in as the root user.
 
 <code>git clone https://github.com/bymiy/easynetplan.git</code>
 
-<code>chmod u+x easynetplan/easynetplan.sh</code>
+<code>chmod u+x easynetplan/easynetplan</code>
 
-<code>./easynetplan/easynetplan.sh</code>
+<code>./easynetplan/easynetplan</code>
 
 If you need it from now on, just type the following command.
 
